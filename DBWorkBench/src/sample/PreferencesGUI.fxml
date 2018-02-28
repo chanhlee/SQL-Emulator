@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <VBox prefHeight="376.0" prefWidth="600.0">
+            <children>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <CheckBox layoutX="250.0" layoutY="138.0" mnemonicParsing="false" text="Hide menu bar" />
+                        <CheckBox layoutX="427.0" layoutY="138.0" mnemonicParsing="false" text="Disable extension column" />
+                        <Label layoutX="27.0" layoutY="212.0" text="Delimiter Character" />
+                        <Label layoutX="26.0" layoutY="257.0" text="File Extensions" />
+                        <Label layoutX="26.0" layoutY="304.0" prefHeight="17.0" prefWidth="96.0" text="Default Directory" />
+                        <TextField layoutX="201.0" layoutY="208.0" text=";" />
+                        <TextField layoutX="201.0" layoutY="253.0" />
+                        <TextField layoutX="201.0" layoutY="300.0" text="project2" />
+                        <CheckBox layoutX="26.0" layoutY="138.0" mnemonicParsing="false" text="Show status bar" />
+                        <Label layoutX="24.0" layoutY="21.0" text="Workbench Theme" />
+                        <Label layoutX="24.0" layoutY="109.0" />
+                        <Label layoutX="24.0" layoutY="109.0" />
+                        <Label layoutX="24.0" layoutY="109.0" text="Tab Bar" />
+                        <ToggleButton layoutX="24.0" layoutY="45.0" mnemonicParsing="false" text="Dark">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="toggleGroup" />
+                            </toggleGroup>
+                        </ToggleButton>
+                        <ToggleButton layoutX="279.0" layoutY="45.0" mnemonicParsing="false" text="Light" toggleGroup="$toggleGroup" />
+                        <ToggleButton layoutX="506.0" layoutY="45.0" mnemonicParsing="false" text="Pink" toggleGroup="$toggleGroup" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</VBox>
